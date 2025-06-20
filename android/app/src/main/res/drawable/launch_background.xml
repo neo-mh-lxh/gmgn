@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GMGN.AI Launch splash screen -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color -->
+    <item android:drawable="@color/launch_background_color" />
+    
+    <!-- Logo -->
+    <item android:gravity="center">
+        <shape android:shape="oval">
+            <size android:width="120dp" android:height="120dp" />
+            <gradient
+                android:startColor="#4ECCA3"
+                android:endColor="#2EAA8A"
+                android:angle="135" />
+        </shape>
+    </item>
+</layer-list>
